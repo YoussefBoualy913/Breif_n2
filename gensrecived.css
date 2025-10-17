@@ -105,9 +105,11 @@ p{
     bottom: 2rem;
 }
 #image2{
-    outline: 1px solid #537DD8;
-    outline-offset:  4px;
-    z-index: 100;
+    /* outline: 1px solid green;
+    outline-offset:  4px;*/
+    border: 1px solid #537DD8;
+    z-index: 1000;
+    background-color: rgb(34, 33, 33);
 }
 .groupimage{
     display: flex;

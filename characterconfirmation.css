@@ -25,30 +25,24 @@ h6 {
     margin: 0
 }
 .contenaireh1{
+   
     position: relative;
+    top: 2rem;
     left: 4rem;
-    position: relative;
-    top: 3rem;
 }
 .contenaireh1 p{
     color:#36B862 ;
     font-size: 10px;
-}
-.freecompanion{
-    margin-left: 10px;
 }
 .contenaireh1 p::before{
     content: "";
     width: 6px;
     height: 6px;
     background-color: #36B862;
-;
+
     display: inline-block;
     margin-right: .3rem;
     margin-bottom: .09rem
-}
-#freecompanion{
-    background-color: green;
 }
 
 .section_title{
@@ -62,21 +56,21 @@ p{
 .vecture-svg{
     position: relative;
     z-index: 0;
-    margin-left: 5rem;
+    margin-left: 3rem;
 }
 #loding{
     background-color: rgb(102, 102, 103);
     height: 5px;
     width: 60%;
     position: relative;
-    top: 3.4rem;
+    top: 2rem;
     left: 11rem;
 }
 .infolaoding{
     display: flex;
     gap: 5rem;
     position: relative;
-    top:4rem;
+    top:2rem;
     left: 15rem;
     
 }
@@ -88,63 +82,55 @@ p{
 #loding>div{
     background-color: rgb(7, 185, 7);
     height: 100%;
-    width: 40%;
+    width: 100%;
 }
-.profil_image{
+.profil{
    position: relative;
-   left: -67rem;
-   top: 10rem;
+   left: -70rem;
+   top: 9rem;
    z-index: 1000;
    display: flex;
    flex-direction: row;
-  gap:2rem;
+  gap:5rem;
 }
-.image1{
+.guninformation p{
+ font-size: 10px;
+ font-weight: 4px;
+}
+.guninformation{
     position: relative;
-    bottom: 2rem;
+    top: 2rem;
 }
-#image2{
-   /* outline: 1px solid green;
-    outline-offset:  4px;*/
-    border: 1px solid #36B862;
-    z-index: 1000;
-    background-color: rgb(34, 33, 33);
-}
-.groupimage{
+#guncadre{
     display: flex;
-    gap:2rem;
-    position: relative;
-    left: -4rem;
-    z-index: 1000;
-}
-.profil_image_p{
- 
- width: 2rem;
- height: 2rem;
- position: relative;
- top: 5rem;
- color: white;
- text-align: center;
- border: 1px solid white;
-}
-#lie_image{
+    justify-content: center;
+    align-items: center;
     width: 15rem;
-    height: 6rem;
-    border-right:1px solid rgb(138, 139, 138);
-    border-bottom:1px solid rgb(150, 150, 150);
-    z-index: 0;
-    position: relative;
+    height: 15rem;
+    border-radius: 35px;
+    
+    background:linear-gradient( rgba(19, 18, 18, 0.7),rgba(0, 0, 0, 0.6))
+    
+    
+}
 
-    left: -22rem;
-    top: -2rem;
+
+
+#lie_image{
+   
     
 }
 .contenaireprofil{
     display: flex;
    
 }
+.gun-card{
+    display: flex;
+    gap: 6rem;
+    
+}
 
-.turtle>a{
+#go{
     display: block;
     text-decoration: none;
     background-color: green;
@@ -154,32 +140,8 @@ p{
     text-transform: uppercase;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    top: 3rem;
+    top: 11rem;
+    height: 2rem;
+    border-radius: 1rem;
 }
-#turtleh2::before{
-    content:"character";
-    display: inline-block;
-    width: 123px;
-    height: 14.5px;
-    background-color: rgb(8, 211, 1);
-    clip-path: polygon(0 0, 80% 1%, 100% 100%, 100% 100%, 0 100%);
-    position: absolute;
-    top: -20px;
-    font-size: 12px;
-    text-transform: lowercase;
-    color: black;
-    padding-left: 4px;
-}
-#turtleh2::after{
-  display: inline-block;
-   content: url(ETHOSUNTAMED.png);
-    position: relative;
-    top: 30px;
-    right:7rem ;
-    
-}
-.turtle>p{
-    position: relative;
-    top: 20px;
-    font-size: 15;
-}
+
